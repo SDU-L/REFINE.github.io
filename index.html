@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="REFINE: Composed Video Retrieval via Shared and
+Differential Semantics Enhancement">
+  <meta property="og:title" content="REFINE: Composed Video Retrieval via Shared and
+Differential Semantics Enhancement" />
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+  <meta property="og:url" content="URL OF THE WEBSITE" />
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+
+  <meta name="twitter:title" content="REFINE: Composed Video Retrieval via Shared and
+Differential Semantics Enhancement">
+  <meta name="twitter:description" content="REFINE: Composed Video Retrieval via Shared and
+Differential Semantics Enhancement">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="REFINE: Composed Video Retrieval via Shared and
+Differential Semantics Enhancement">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="REFINE: Composed Video Retrieval via Shared and
+Differential Semantics Enhancement">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>REFINE: Composed Video Retrieval via Shared and
+    Differential Semantics Enhancement
+  </title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://sdu-l.github.io/ENCODER.github.io/">
+              Encoder (AAAI'25)
+            </a>
+            <a class="navbar-item" href="https://zivchen-ty.github.io/HUD.github.io/">
+              HUD (ACM MM'25)
+            </a>
+            <a class="navbar-item" href="https://windlikeo.github.io/MEDIAN.github.io/">
+              MEDIAN (ICASSP'25)
+            </a>
+            <a class="navbar-item" href="https://zivchen-ty.github.io/OFFSET.github.io/">
+              OFFSET (ACM MM'25)
+            </a>
+            <a class="navbar-item" href="https://zhihfu.github.io/PAIR.github.io/">
+              PAIR (ICASSP'25)
+            </a>
+            <a class="navbar-item" href="https://sdu-l.github.io/HABIT.github.io/">
+              HABIT (AAAI'26)
+            </a>
+            <a class="navbar-item" href="https://zivchen-ty.github.io/INTENT.github.io/">
+              INTENT (AAAI'26)
+            </a>
+            <a class="navbar-item" href="https://sdu-l.github.io/ReTrack.github.io/">
+              ReTrack (AAAI'26)
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">[TOMM] REFINE: Composed Video Retrieval via Shared and
+              Differential Semantics Enhancement</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <!--               <sup>*</sup> -->
+              <!-- <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Zhiwei Chen<sup>1</sup></a>,</span> -->
+              <span class="author-block" style="font-weight: 1000;">
+                <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm" target="_blank"
+                  class="author-link">Yupeng
+                  Hu<sup>1</sup></a>,
+              </span>
+              <span class="author-block" style="font-weight: 1000;">
+                <a href="https://lee-zixu.github.io" target="_blank" class="author-link">Zixu Li<sup>1</sup></a>,
+              </span>
+              <span class="author-block" style="font-weight: 1000;">
+                <a href="https://zivchen-ty.github.io" target="_blank" class="author-link">Zhiwei
+                  Chen<sup>1</sup></a>,
+              </span>
+              <span class="author-block" style="font-weight: 1000;">
+                <a href="https://windlikeo.github.io/HQL.github.io/" target="_blank" class="author-link">Qinlei
+                  Huang<sup>1</sup></a>,
+              </span>
+              <span class="author-block" style="font-weight: 1000;">
+                <a href="https://zhihfu.github.io" target="_blank" class="author-link">Zhiheng Fu<sup>1</sup></a>,
+              </span>
+              <span class="author-block" style="font-weight: 1000;">
+                <a href="https://faculty.sdu.edu.cn/xumingzhu/zh_CN/index.htm" target="_blank"
+                  class="author-link">Mingzhu Xu<sup>1*</sup></a>,
+              </span>
+              <span class="author-block" style="font-weight: 1000;">
+                <a href="https://liqiangnie.github.io/index.html" target="_blank" class="author-link">Liqiang
+                  Nie<sup>2</sup></a>,
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Shandong University, China,<br><sup>2</sup>Harbin Institute of
+                Technology (Shenzhen), China
+                <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author.</small></span>
+
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+
+                <span class="link-block">
+                  <a href="https://dl.acm.org/doi/abs/10.1145/3796712" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- <span class="link-block">
+                  <a href=""
+                    target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-google-drive"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+
+
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <div class="item">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-fifths-fifths">
+                  <!-- Your image here -->
+                  <img src="static/images/Abstract.png" alt="MY ALT TEXT" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <!-- <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              [Abstract added here]
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-three-fifths">
+          <h2 class="title is-3">Shareability vs. Variability in CVR</h2>
+          <div class="item">
+            <div class="columns is-centered has-text-centered">
+              <div class="column is-three-fifths">
+                <!-- Your image here -->
+                <img src="static/images/Intro.png" alt="MY ALT TEXT" />
+                <h2 class="subtitle has-text-centered has-text-justified">
+                  (a) illustrates a case of the CVR task, (b) visualizes the shareability in the video, and (c)
+                  highlights the
+                  variability in the video.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container  has-text-centered">
+        <h2 class="title is-3">Framework: haREd
+          and diFferential semantIcs eNhancement nEtwork (REFINE)</h2>
+        <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/Framework.png" alt="MY ALT TEXT" />
+          <h2 class="subtitle has-text-centered">
+            Our REFINE framework comprises three core modules: (a) Shared Feature Enhancement, (b) Differential
+            Semantic Disentanglement, and (c) Associative Object Aggregation.
+          </h2>
+        </div>
+        <hr>
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- End image carousel -->
+
+
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h2 class="title is-3">Experiment</h2>
+        <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/MainTable_WebVid.png" alt="MY ALT TEXT" />
+          <h2 class="subtitle has-text-centered">
+            Performance comparison on WebVid-CoVR-Test (R@𝑘 (%)). The overall best results are in bold, while
+            the best results over baselines are underlined.
+          </h2>
+        </div>
+        <br>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/MainTable_FashionIQ.png" alt="MY ALT TEXT" />
+          <h2 class="subtitle has-text-centered">
+            Performance comparison on FashionIQ (R@𝑘 (%)). The overall highest performance is indicated in
+            bold, while the top-performing results over the baseline methods are underlined.
+          </h2>
+        </div>
+        <br>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/MainTable_Shoes.png" alt="MY ALT TEXT" />
+          <h2 class="subtitle has-text-centered">
+            Performance comparison on Shoes (R@𝑘 (%)). The overall highest performance is indicated in bold,
+            while the top-performing results over the baseline methods are underlined.
+          </h2>
+        </div>
+        <br>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/MainTable_CIRR.png" alt="MY ALT TEXT" />
+          <h2 class="subtitle has-text-centered">
+            Performance comparison on CIRR with respect to R@𝑘(%) and R𝑠𝑢𝑏𝑠𝑒𝑡 @𝑘(%). The overall highest
+            performance is indicated in bold, while the top-performing results over the baseline methods are underlined.
+          </h2>
+        </div>
+        <br>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-third-fifths">
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/ablation.png" alt="MY ALT TEXT" />
+              <h2 class="subtitle has-text-centered">
+                Ablation Studies of REFINE with different components and various settings on WebVid-CoVR,
+                FashionIQ, Shoes, and CIRR. Note that Var# is the number of different configurations.
+              </h2>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-third-fifths">
+            <div class="item">
+              <img src="static/images/Sensitivity.png" alt="MY ALT TEXT" />
+              <h2 class="subtitle has-text-centered">
+                Sensitivity to (a) Number of Semantic Clusters and (b) Number of Enhanced Tokens.
+              </h2>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-third-fifths">
+            <div class="item">
+              <img src="static/images/Case.png" alt="MY ALT TEXT" />
+              <h2 class="subtitle has-text-centered">
+                Case Study on (a) WebVid-CoVR, (b) FashionIQ, (c) Shoes, and (d) CIRR.
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+
+
+  <!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+        @article{hurefine,
+        title={REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement},
+        author={Hu, Yupeng and Li, Zixu and Chen, Zhiwei and Huang, Qinlei and Fu, Zhiheng and Xu, Mingzhu and Nie, Liqiang},
+        journal={ACM Transactions on Multimedia Computing, Communications and Applications},
+        publisher={ACM New York, NY}
+        }
+      </code></pre>
+    </div>
+  </section>
+  <!--End BibTex citation -->
+  <!-- volume={x},
+number={x},
+pages={x--x}, -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-1">
+          Cluster Map
+        </div>
+        <div class="column is-8">
+          <div class="content">
+
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the source code of this website, we just ask that you link back to this page in the
+              footer. <br> This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Statcounter tracking code -->
+
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
